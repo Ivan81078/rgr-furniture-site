@@ -1,0 +1,30 @@
+# Конфиг с паролями БД и SMTP — НИКОГДА не коммитим
+/config/secrets.php
+
+# Загруженные пользователями файлы (картинки, документы)
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Временные файлы и логи
+/logs/*.log
+/cache/*
+
+# Архивы бэкапов (они слишком большие для GitHub)
+*.zip
+*.7z
+*.rar
+
+# Системные файлы Windows
+Thumbs.db
+Desktop.ini
+
+# Системные файлы macOS (если когда-нибудь будешь работать с Mac)
+.DS_Store
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+README.md
